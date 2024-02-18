@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1708188880 source:c:\users\jaber\desktop\compiler design lab\numeric_constant_checker_program\main.cpp
+	<iostream>
+	<string>
+
