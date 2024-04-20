@@ -1,6 +1,7 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <fstream>
 using namespace std;
-string dataTypes[] = {"int", "short", "long", "long long", "float", "double", "long double", "char", "wchar_t", "char16_t", "char32_t", "bool", "void"};
+string dataTypes[] = {"function","int", "short", "long", "long long", "float", "double", "long double", "char", "wchar_t", "char16_t", "char32_t", "bool", "void"};
 int sizeOfDataTypesArray = sizeof(dataTypes) / sizeof(dataTypes[0]);
 void removeEqualSign(string &st)
 {
@@ -110,7 +111,6 @@ bool isMatchDataType(string st)
 
 int main()
 {
-
     ifstream MyReadFile("file.txt");
     string st;
     while(getline(MyReadFile,st)){}
