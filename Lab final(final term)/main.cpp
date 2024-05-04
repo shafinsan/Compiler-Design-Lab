@@ -186,7 +186,7 @@ string readFileToString(const string& filename)
         string line;
         while (getline(file, line))
         {
-            content += line; // Append line to content string
+            content += line;
         }
         file.close();
     }
@@ -200,17 +200,14 @@ string readFileToString(const string& filename)
 int main()
 {
     outputFile.open("store.txt");
-    // Read contents of lex_input.txt into a string
     string filename = "lex_input.txt";
     string fileContent = readFileToString(filename);
-
     if (fileContent.empty())
     {
         cerr << "Error: Failed to read input file." << endl;
         return 1;
     }
     mainLogic(fileContent);
-    // Close output file
     outputFile.close();
     cout << "Analysis results saved in store.txt" << endl;
     return 0;
