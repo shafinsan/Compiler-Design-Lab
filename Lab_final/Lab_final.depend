@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1714834717 source:c:\users\jaber\desktop\cdl\compiler design lab\lab_final\main.cpp
+	<fstream>
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
